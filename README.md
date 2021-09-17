@@ -13,7 +13,7 @@
     • Step 11: Output
 
 ## Experiment 02
-# I ) Using Telnet
+### I ) Using Telnet
     • Step 1:  Press Windows + R
     • Step 2: Enter the below command
             >>  lusrmgr.msc
@@ -27,7 +27,7 @@
               telnet www.google.com 80
     • Step 8: Output 
 
-# II) Using Netcat
+### II) Using Netcat
     • Step 1: Extract the Netcat.rar file in c\: Drive
     • Step 2: Open the command Prompt as admin mode
     • Step 3: Change the Directory to ur netcat folder where file is extracted
@@ -37,7 +37,7 @@
     • Step 5: Output
 
 ## Experiment 03			 
-# I ) Super Scan
+### I ) Super Scan
     • Step 1: Install Superscan.exe file
     • Step 2: open cmd and enter below command
       >> ipconfig
@@ -47,35 +47,35 @@
     • Step 4: Paste the IP address in Super Scan >> click on Enumerate button
     • Step 5: Output
 
-# II ) Zen Map
+### II ) Zen Map
     • Step 1: Install Zen Map.exe file
     • Step 2: command Prompt copy Ip address
     • Step 3: and Enter the IP address in Command Tab >> Click on scan
     • Step 4: Output
 
 ## Experiment 04 
-# I ) -V
+### I ) -V
     • Step 1: open zenmap software
     • Step 2: Open Command Prompt and copy the IP Address 
     • Step 3: Paste IP Address in 
             command Tab Like this: nmap -V 198.168.78.1 
     • Step 4: click on scan 
 
-# II ) –sP
+### II ) –sP
     • Step 1 : open zenmap software
     • Step 2: Open Command Prompt and copy the IP Address 
     • Step 3: Paste IP Address in 
              command Tab Like this: nmap -sP 198.168.78.1 
     •Step 4: click on scan 
 
-# III ) –sV
+### III ) –sV
     • Step 1 : open zenmap software
     • Step 2: Open Command Prompt and copy the IP Address 
     • Step 3: Paste IP Address in 
               command Tab Like this : nmap -sV 198.168.78.1 
     • Step 4: click on scan 
 
-# IV ) –A
+### IV ) –A
     • Step 1 : open zenmap software
     • Step 2: Open Command Prompt and copy the IP Address 
     • Step 3: Paste IP Address in 
@@ -83,14 +83,14 @@
     • Step 4: click on scan 
 
 ## Experiment 05     
-# UBUNTU:
-I ) Xprobe
+### UBUNTU:
+### I ) Xprobe
     • Step 1 : install xprobe2
         >> sudo apt install xprobe2
     • Step 2 :  xprobe –v 127.0.0.1
     • Step 3 : Output
 
-# II ) -O
+### II ) -O
     •Step 1 : install xprobe2
         >> sudo apt install xprobe2
     • Step 2 :  xprobe –O 127.0.0.1
@@ -98,7 +98,7 @@ I ) Xprobe
 
 # WINDOWS:
 
-# III) zenmap
+### III) zenmap
     • Step 1 : open zenmap software
     • Step 2: Open Command Prompt and copy the IP Address 
     • Step 3: Paste IP Address in 
@@ -125,7 +125,7 @@ I ) Xprobe
 # Experiment 08                                      
     • Step 1: Install JDK (JAVA DEVELOPMENT KIT)
     • Step 2: Install JCT(Jcrypt Tool)
-# I ) RSA ENCRYPTION
+### I ) RSA ENCRYPTION
     • Step 1: Goto >>File>>New>>Empty File in Texteditor
     • Step 2:Enter some text and save it
     • Step 3:Goto>>Algorithms>>Asymmetric>>RSA
@@ -135,7 +135,7 @@ I ) Xprobe
     • Step 7: click on finish
     • Step 8: Encrypted text will appears  
     
-# RSA DECRYPTION
+### RSA DECRYPTION
     • Step 1:Goto>>Algorithms>>Asymmetric>>RSA
     • Step 2: Select >> Decrypt Radio button
     • Step 3:click on finish
@@ -143,7 +143,7 @@ I ) Xprobe
     • Step 5: click on ok
     • Step 6: Decrypted text will appears  
 
-# II ) AES Encryption
+### II ) AES Encryption
     • Step 1: Goto >>File>>New>>Empty File in Texteditor
     • Step 2:Enter some text and save it
     • Step 3:Goto>>Algorithms>>Symmetric>>AES	
@@ -153,7 +153,7 @@ I ) Xprobe
     • Step 7: click on finish
     • Step 8: Encrypted text will appears  
     
-# AES Decryption
+### AES Decryption
     • Step 1:Goto>>Algorithms>>Symmetric>>AES
     • Step 2: Select >> Decrypt Radio button
     • Step 3:click on finish
@@ -161,7 +161,7 @@ I ) Xprobe
     • Step 5: click on ok
     • Step 6: Decrypted text will appears  
 
-# III ) Message Digest
+### III ) Message Digest
     • Step 1: Goto >>File>>New>>Empty File in Texteditor
     • Step 2:Enter some text and save it
     • Step 3:Goto>>Algorithms>>HASH>>SHA	
