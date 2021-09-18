@@ -1,5 +1,28 @@
 # Network-Security-Lab
-## Experiment 01	                                         
+# Syllabus
+        1.	Learn to install Wine/Virtual Box/ or any other equivalent s/w on the host OS
+        2.	Perform an experiment to grab a banner with telnet and perform the task using Netcat
+        3.	Perform an experiment for Port Scanning with nmap, superscan or any other equivalent software
+        4.	Using nmap
+        1.	Find Open ports on a system
+        2.	Find machines which are active
+        3.	Find the version of remote OS on other systems
+        4.	Find the version of s/w installed on other system (using nmap or any othe software)
+        5.	Perform an experiment on Active and Passive finger printing using XProbe2 and nmap
+        6.	Perform an experiment to demonstrate how to sniff for router traffic 
+            by using the tool Cain and Abel / wireshark / tcpdump
+        7.	Perform an experiment how to use DumpSec.
+        8.	Install JCrypt tool (or any other equivalent) and demonstrate Asymmetric, 
+            Symmetric crypto algorithm, Hash and Digital/PKI signatures studied in theory Network Security and Management
+        9.	Demonstrate Intrusion Detection System (IDS) using any tool eg. Snort or any other s/w
+        10. Install RootKits and study variety of options
+        11. Generate minimum 10 passwords of length 12 characters using open ssl  
+               command
+        12.Setup a honey pot and monitor the honey pot on network and KFsensor
+
+
+## Experiment 01	 
+### Learn to install Wine/Virtual Box/ or any other equivalent s/w on the host OS
     • Step 1: Install vmware
     • Step 2: Keep ready with operating system image files like: Ubuntu, Windows,..,etc 
     • Step 3: Open vmware 
@@ -13,6 +36,7 @@
     • Step 11: Output
 
 ## Experiment 02
+### Perform an experiment to grab a banner with telnet and perform the task using Netcat
 ### I ) Using Telnet
     • Step 1:  Press Windows + R
     • Step 2: Enter the below command
@@ -36,7 +60,8 @@
       >> nc www.google.com 80
     • Step 5: Output
 
-## Experiment 03			 
+## Experiment 03		
+### Perform an experiment for Port Scanning with nmap, superscan or any other equivalent software
 ### I ) Super Scan
     • Step 1: Install Superscan.exe file
     • Step 2: open cmd and enter below command
@@ -54,49 +79,55 @@
     • Step 4: Output
 
 ## Experiment 04 
-### I ) -V
+### 	Using nmap
+        1.	Find Open ports on a system
+        2.	Find machines which are active
+        3.	Find the version of remote OS on other systems
+        4.	Find the version of s/w installed on other system (using nmap or any othe software)
+### I ) -V 	(Find Open ports on a system)
     • Step 1: open zenmap software
     • Step 2: Open Command Prompt and copy the IP Address 
     • Step 3: Paste IP Address in 
             command Tab Like this: nmap -V 198.168.78.1 
     • Step 4: click on scan 
 
-### II ) –sP
+### II ) –sP (Find machines which are active)
     • Step 1 : open zenmap software
     • Step 2: Open Command Prompt and copy the IP Address 
     • Step 3: Paste IP Address in 
              command Tab Like this: nmap -sP 198.168.78.1 
     •Step 4: click on scan 
 
-### III ) –sV
+### III ) –sV (Find the version of remote OS on other systems)
     • Step 1 : open zenmap software
     • Step 2: Open Command Prompt and copy the IP Address 
     • Step 3: Paste IP Address in 
               command Tab Like this : nmap -sV 198.168.78.1 
     • Step 4: click on scan 
 
-### IV ) –A
+### IV ) –A (Find the version of s/w installed on other system (using nmap or any othe software))
     • Step 1 : open zenmap software
     • Step 2: Open Command Prompt and copy the IP Address 
     • Step 3: Paste IP Address in 
               command Tab Like this : nmap -sV 198.168.78.1 
     • Step 4: click on scan 
 
-## Experiment 05     
+## Experiment 05   
+### Perform an experiment on Active and Passive finger printing using XProbe2 and nmap
 ### UBUNTU:
-### I ) Xprobe
+### I ) Xprobe (Passive finger Printing)
     • Step 1 : install xprobe2
         >> sudo apt install xprobe2
     • Step 2 :  xprobe –v 127.0.0.1
     • Step 3 : Output
 
-### II ) -O
+### II ) -O (Active finger Printing)
     •Step 1 : install xprobe2
         >> sudo apt install xprobe2
     • Step 2 :  xprobe –O 127.0.0.1
     • Step 3 : Output
 
-# WINDOWS:
+### WINDOWS:
 
 ### III) zenmap
     • Step 1 : open zenmap software
@@ -105,14 +136,17 @@
             command Tab Like this: nmap -O 198.168.78.1 
     • Step 4: click on scan 
 
-# Experiment 06                                        
+## Experiment 06       
+### Perform an experiment to demonstrate how to sniff for router traffic 
+### by using the tool Cain and Abel / wireshark / tcpdump
     • Step 1: Install wire shark software
     • Step 2 : Open Command Prompt and copy the IP Address 
     • Step 3: now Open the wire shark software
     • Step 4: click on local network then scan Data packets are visible
     • Step 5: Output
 
-# Experiment 07                                      
+## Experiment 07         
+### Perform an experiment how to use DumpSec
     • Step 1: Install DUMPSEC Software
     • Step 2 : goto browser and search for any website
     • Step 3: now Open the dumpsec software
@@ -122,7 +156,9 @@
     • Step 7: After selection of options click on ok 
     • Step 9: Output
 
-# Experiment 08                                      
+## Experiment 08   
+### Install JCrypt tool (or any other equivalent) and demonstrate Asymmetric, Symmetric
+### crypto algorithm, Hash and Digital/PKI signatures studied in theory Network Security and Management
     • Step 1: Install JDK (JAVA DEVELOPMENT KIT)
     • Step 2: Install JCT(Jcrypt Tool)
 ### I ) RSA ENCRYPTION
@@ -168,8 +204,9 @@
     • Step 4: click on Finish
     • Step 5: Message Digest will appears  
 
-# Experiment 09                                      
-# Snort
+## Experiment 09     
+### Demonstrate Intrusion Detection System (IDS) using any tool eg. Snort or any other s/w
+### Snort
     • Step 1: install snort software
     • Step 2: Install wincap software
     • Step 3: Open c:\ drive  copy the bin path of snort example : C:\Snort\bin
@@ -183,4 +220,36 @@
     • Step 11: Output
 
 
+## Experiment 10
+### Install RootKits and study variety of options
+### GMER ROOTKIT TOOL:
+
+    • Step 1: Run GMER.exe file as admin mode
+    • Step 2: In the right side select library,system,..,etc.
+    • Step 3: Output
+## Experiment 11
+### Generate minimum 10 passwords of length 12 characters using open ssl command.
+### OpenSSL
+         Ubuntu:
+    • Step 1: Open Terminal
+    • Step 2: Generating minimum 10 passwords using OpenSSL of length 12 characters
+    • Step 3: Using command :
+            >>openssl passwd –crypt “password”
+            >>Give your desired paasword
+    • Step 4: Output
+    
+## Experiment 12
+### Setup a honey pot and monitor the honey pot on network and KFsensor
+### I)HoneyBot:
+    • Step 1: install Honebot Software 
+    • Step 2: click on play button automatically sockets are starts scanning
+    • Step 3: Output
+### II)KFsensor:
+    • Step 1: Download the KFsensor from the browser 
+        Note: Don’t use older version use newer version
+    • Step 2: install the KFsensor.exe file 
+    • Step 3: restart your system 
+    • Step 4: Automatically KFsensor Windows appears 
+    • Step 5: start any port on your system that will Listens the port of that machine.
+    • Step 6: Output
 
